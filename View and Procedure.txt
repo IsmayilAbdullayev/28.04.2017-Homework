@@ -1,0 +1,23 @@
+1.View ve Procedure arasinda ferq nedir ?
+2.Niye Procedure istifade etmeliyik ?
+
+SQL de View istediyimiz bir table-in kopyasini cixarir bu cixardigimiz table- in icinde de bir nece table-llar ola biler.
+biz bu kopyasini cixardigimiz cedvelin uzerinde istediyimiz melumatlari ala bilerik lakin bezi emirler varki onlari ede bilmerik
+meselen: delete,edit,update ede bilmirik.Lakin Where ve Join emirlerini verib istediyimiz melumatlari ala bilerik.orginal table-da
+her hansi bir deyisiklik etsek Bu view etdyimiz table ucun de kecerli olacaqdir yenilikler view table-da da eks olunacaqdir.
+
+Bir databasenin ve ya databas heyata kecirmek memarliginda SQL prosedurlarinin bir cox faydali uygulamasi vardir.
+SQL prosedurlari tez esas hesabat yardan,melumatlarin yenilenmesi,deyisdirir queri ucun sade script  yaratmaq proqram performansini
+yaxsilasdirilmasi,umumi melumat bazasi dizayn ve verilenler bazasi tehlukesizlik yaxsilasdirilmasi ucun istifade edile biler.
+
+
+Disadvantages
+
+1.Saxlanilan  prosedur dilleri saticiya mexsusdur.Bu sebeble,baska bir saticinin database kecrseniz,var olan gizli prosedurlari  yeniden
+yazmag lazimdir.
+
+2.Ferqli saticilardan alinan saxlanan prosedeur dilleri,ferqli seviyelerde inkisafa sahibdir.Meselen,Oracle PL/SQL daha cox dil 
+xususiyyetleri ve Microsoft T-SQL-den cox daxili xususiyyetleri vardir.
+
+3.Yazili ve gizli prosedurlari ayrimaq ucun vasite desteyi ,saticilar ve diller bagli olasa da,umumiyyetle,diger proqamlasdirma dilleri
+ ucun deyil  en yaxsi deyil.
